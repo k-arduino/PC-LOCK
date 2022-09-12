@@ -1,12 +1,3 @@
 {
-  "type": "service_account",
-  "project_id": "jungyo-iot-server",
-  "private_key_id": "d1cbe68f75750d6ead3946e05796d81857888776",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCsUuesLzxa+QxQ\n+URURyGL1V8MosV7edNWUnvjSSu6x/NnNjKgnu8TCHdeTKny7KQhEnHw2+pmE7FG\n2kKoQPMDOLTCE3Z1blxAdAbgXgN4Ycqk/6e2V5CC7fTLdvCLqn6OBPfKKFibDK/a\nqRG4a/vo1KW9JijkUZHW5KJ3e/5yrQKPD33FIv3yjx4ifKbjQ9uOiuUFd4llWdvc\ndZYw/OMPz6KPY2ZhxJh0xcytt1pTITyKWBL+vgxbXV3CfdKAsv6KMNmrpgm1IFDn\n5Oak+dct1/QKO+ASv7t2x5ccdAfwdLQYgtvm7wEbzvrkLaErCj7nU79d4bZDGUoC\nsJtHBmghAgMBAAECggEAVOu8OKnEhA50Z9kXN7MgEIGTiC4UxO852zHl1JGkB7Vu\nuV/HnkkEhywmayW7oLfGgHfPB8PQZQJyW/jGXZU4TM+eoH+n4mIC+05SbzJVYndK\nvnowg5buY99xQe14yFM6b7F6DTlJxQsBBHBKB8jLSSe2D5slDrM1/CELAXfs4kSZ\n8dccQ5ziVQYkjO4XAsVsl+rrXOGnw/rutT6fPNzfe9sM4qHIEUYjXs97MC1IvbDp\nO+0ezwg3SHLm9FWVQkSFdyNSfBJzq52v9RvrpIlM1N1RjiI2UOrREI7cqQSRoXIj\nwP9Jr+3Rlgm8tsVLP4rvmmwuWTo1i2lzqYTqLXXqQwKBgQDfk8xx5roxchO4LbqJ\n8zlbc1B6JW2a+TBXoCZWGtDVV/ewydOWOTnQ9a9ChLeBlkqCfwXMoYeGNy7fIHj2\nqViCoPmgSdh5z6Ymll68JjfdPDGOJ1oX2pSHpz+1s/jEMI+stUXr7vqMGZG86L/n\n4V0Tpsvif2BTKnrAkSQZkkbKbwKBgQDFUFhZII0kfMTFFADtcFpHPxiDbN6ouy0t\nV+Eli27Fym9cCqb7GZxd/pBoEhyXyqdPiEzwPKaHFlYfzj2t9aR/E46eDt0s7MVQ\n/2jvUNn9qwn+7LVyAFEz0tQtAzfK6cCtFE4YzvVukc5wUtm8Hm6BISa0b8BMSl7O\niiDk6W5+bwKBgQDUR0+ZYfmtUuP4PqrbqizucJmbsAfWWf0VZcCghot71S8fEzIr\ncyA7D9qc7MgTaTBLoPFPrpqvy5tcTUes43NfbBo3n4XDem4GO0WtnRfzneBrWV/I\nQEhAWIM8MankFTuFPwQplFkdRnXCiLcVIjwumXMCFfDOZgnw5p4BDYrbTwKBgG0k\nSypJuijTpxgIP5cXDajZOtr/ro4QsyWgtZZJ8SURG9YCwmikuvy3IfOfCRfhbfit\nQTmlosuYTF1dfHqsJKhyDfJZ8He4JFDwZn/x7hLFuEq9boQ3rrMGzHx1ijgAYqaa\nU7SfTd0yY8l32p6XCrL8vmcSZYENpjGC8D0O7iKbAoGBAJQL+ZtouON1S/xC+0PV\neaJxPb4lmU8v14+Fhup974+KLKUxAIlCXQPehrDbxvTUyo/lVQX7aHXu+WvaJUbZ\nFCIqX/eYu/nC2dJI5WQFtsW29P7Bbg+BPcbYkijVLurJ+rGwLQbNZ0WAm4Z+2scl\n0TadR+Idgb5uXlVclsISrAMW\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-6f7xl@jungyo-iot-server.iam.gserviceaccount.com",
-  "client_id": "110029745351097521402",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-6f7xl%40jungyo-iot-server.iam.gserviceaccount.com"
+firebaseconfig haha
 }
