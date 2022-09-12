@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>컴퓨터 해제 키</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
+        import { getDatabase, ref, onValue, child, get, set } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-database.js"
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyDnxnBQMETtiHIX14MosLyvxy5UuKE6FH0",
+            authDomain: "jungyo-iot-server.firebaseapp.com",
+            databaseURL: "https://jungyo-iot-server-default-rtdb.firebaseio.com",
+            projectId: "jungyo-iot-server",
+            storageBucket: "jungyo-iot-server.appspot.com",
+            messagingSenderId: "697891769932",
+            appId: "1:697891769932:web:093754cfb659fa0b7c2ee9",
+            measurementId: "G-3KRKTSBFJN"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const database = getDatabase(app);
+
+        const KEY = ref(database, 'Lenovo Y540/'  + 'Input/' + 'PCLOCK/' + 'KEY');
+        onValue(KEY, (snapshot) => {
+        const data = snapshot.val();
+        document.getElementById('KEY').innerText = data;
+        console.log(data)
+        });
+
+        const DATE = ref(database, 'Lenovo Y540/'  + 'Input/' + 'PCLOCK/' + 'DATE');
+        onValue(DATE, (snapshot) => {
+        const data = snapshot.val();
+        document.getElementById('DATE').innerText = data;
+        console.log(data)
+        });
+
+        const TIME = ref(database, 'Lenovo Y540/'  + 'Input/' + 'PCLOCK/' + 'TIME');
+        onValue(TIME, (snapshot) => {
+        const data = snapshot.val();
+        document.getElementById('TIME').innerText = data;
+        console.log(data)
+        });
+
+        function test(){
+            alert("hello");
+        }
+    </script>
+    <button onclick="test();">test</button>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="font-size: 30px;"><strong>컴퓨터 해제 키</strong></a></div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 20px;">
+        <div class="row">
+            <div class="col-md-12"><strong style="font-size: 20px;">생성된 시간</strong></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-size: 40px;" , id = "DATE"></h1>
+                <h1 style="font-size: 40px;" , id = "TIME"></h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="margin-top: 20px;">
+        <div class="row">
+            <div class="col-md-12"><strong style="font-size: 20px;color: var(--bs-blue);">해제 키</strong></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-size: 40px;color: var(--bs-blue);" , id = "KEY" ></h1>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+
+</html>
